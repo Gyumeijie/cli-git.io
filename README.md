@@ -115,3 +115,7 @@ The following are part of URLs which can be shorten or unshorten by `cli-git.io`
 - `https://page.github.com` 
 - `https://developer.github.com`
 - `https://user.github.io`
+
+### Links
+
+- [Git.io: GitHub URL Shortener](https://blog.github.com/2011-11-10-git-io-github-url-shortener/)
