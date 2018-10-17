@@ -1,11 +1,22 @@
 {
-  "name": "git.io-cli",
+  "name": "cli-git.io",
   "version": "1.0.0",
   "description": "shorten and unshorten GitHub.com URL",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "git.io",
+    "shorten",
+    "unshorten",
+    "github",
+    "URL",
+    "npm",
+    "package",
+    "cli",
+    "command-line"
+  ],
   "bin": {
     "gitio": "cli/index.js"
   },
