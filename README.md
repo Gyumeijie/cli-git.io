@@ -1,6 +1,8 @@
-# cli-git.io [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+# cli-git.io 
 
-shorten and unshorten GitHub.com URL.
+shorten and/or unshorten GitHub.com URLs.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 # Installation
 
@@ -75,7 +77,7 @@ const githubURL = require('cli-git.io');
 shorten(rawURL, callback, check);
 ```
 
-1. Outputs result to **stdout**:
+1. Output result to **stdout**:
 ```javascript
 githubURL.shorten('https://github.com/Gyumeijie/cli-git.io');
 ```
@@ -88,12 +90,12 @@ githubURL.shorten('https://github.com/Gyumeijie/cli-git.io', function(shortURL) 
 ```
 3. Check the **validity** of rawURL
 ```javascript
-githubURL.shorten('https://github.com/Gyumeijie/cli-git.io',undefined, true);
+githubURL.shorten('https://github.com/Gyumeijie/cli-git.io', undefined, true);
 ```
 
 ##### Unshorten a short URL
 
-1. Outputs result to **stdout**:
+1. Output result to **stdout**:
 ```javascript
 githubURL.unshorten('unshorten https://git.io/fx2B9');
 ```
